@@ -1,0 +1,16 @@
+ALTER TABLE vonal ADD kezdoAllomasSorszam INT
+
+
+ALTER TABLE vonal ADD FOREIGN KEY (kezdoAllomasSorszam)
+REFERENCES allomas(allomasSorszam) 
+ON UPDATE CASCADE
+ON DELETE SET NULL
+
+
+ALTER TABLE vonal ADD vegAllomasSorszam INT
+
+
+ALTER TABLE vonal ADD FOREIGN KEY (vegAllomasSorszam) 
+REFERENCES allomas(allomasSorszam)
+ON UPDATE CASCADE
+ON DELETE SET NULL

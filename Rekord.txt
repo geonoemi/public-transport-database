@@ -1,0 +1,18 @@
+INSERT INTO jarat (rokkantHelyekSzama, uzemeltetesiKoltseg, ulohelyekSzama, csuklos, indulasiIdo, alacsonyPadlos, jaratSorszam, kerekparSzallitasiLehetoseg)
+VALUES ('0', '101.75', '40', '0', '9:00', '0', '7', '0');
+
+
+
+INSERT INTO vonal (uzemanyagTipusa, vonalTipusa, vonalSorszam, vonalHossza, vonalBetujel, vonalSzam)
+VALUES ('elektromosAram', 'villamos', '5', '6', '', '4');
+
+
+
+INSERT INTO erint (erkezesiIdoPerc, erintSorszam, allomasSorszam, vonalSorszam)
+VALUES ('0', '1', '1', '1');
+
+
+INSERT INTO allomas (koordinataX, koordinataY, nev, allomasSorszam)
+VALUES ('46.256150', '20.147643', 'annaKut', '2');
+
+
