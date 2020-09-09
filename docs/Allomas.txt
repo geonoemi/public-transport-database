@@ -1,7 +1,0 @@
-CREATE TABLE `tomegkozlekedes`. `allomas` (
-`koordianataX` VARCHAR(30) NOT NULL,
-`koordianataY` VARCHAR(30) NOT NULL,
-`nev` VARCHAR (25) NOT NULL, 
-`allomasSorszam` INT AUTO_INCREMENT NOT NULL,
-PRIMARY KEY(`allomasSorszam`)
-) ENGINE = InnoDB;

@@ -1,7 +1,0 @@
-ALTER TABLE jarat ADD vonalSorszam INT
-
-ALTER TABLE jarat
-ADD FOREIGN KEY (vonalSorszam)
-REFERENCES jarat(jaratSorszam)
-ON UPDATE CASCADE
-ON DELETE SET NULL

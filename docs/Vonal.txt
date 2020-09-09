@@ -1,9 +1,0 @@
-CREATE TABLE `tomegkozlekedes`. `vonal` (
-`uzemanyagTipusa` varchar(15) NOT NULL,
-`vonalTipusa` varchar(10) NOT NULL,
-`vonalSorszam` INT AUTO_INCREMENT NOT NULL,
-`vonalHossza` FLOAT NOT NULL,
-`vonalBetujel` VARCHAR(2) NOT NULL,
-`vonalSzam` INT NOT NULL,
- PRIMARY KEY(`vonalSorszam`)
-) ENGINE = InnoDB;
